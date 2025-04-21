@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"d776b400324c6175","type":"text","text":"## [[Población Total (PT)|Población Total]] ","x":-49,"y":-80,"width":237,"height":80,"color":"6"},
+		{"id":"2b3c7f785b0f03a2","type":"text","text":"### [[Ocupados (OC)|Ocupados]] ","x":-740,"y":320,"width":174,"height":50,"color":"4"},
+		{"id":"85b1c22dd34cf9a5","type":"text","text":"#### [[Ocupados (OC)#Formales|Formales]]","x":-928,"y":451,"width":150,"height":60,"color":"5"},
+		{"id":"c1403683f2f0fc05","type":"text","text":"#### [[Ocupados (OC)#Subocupación| Subocupados]]\n","x":-566,"y":451,"width":208,"height":60,"color":"5"},
+		{"id":"2b4ff27b686e6ffa","type":"text","text":"#### [[Ocupados (OC)#Informales|Informales]]","x":-744,"y":580,"width":178,"height":50,"color":"5"},
+		{"id":"9392350ec60f7166","type":"text","text":"#### Disponibles para trabajar","x":-308,"y":451,"width":208,"height":89,"color":"5"},
+		{"id":"604a0a1a922155b1","type":"text","text":"#### Buscando trabajo","x":-20,"y":451,"width":160,"height":89,"color":"5"},
+		{"id":"44bb09f11e51cd08","type":"text","text":"#### Sin empleo","x":-158,"y":580,"width":208,"height":60,"color":"5"},
+		{"id":"bcfc4f0a40ef4c87","type":"text","text":"### [[Población Fuera de la Fuerza de Trabajo (PFFT)#Fuerza de trabajo potencial|Potencial]] ","x":320,"y":370,"width":174,"height":50,"color":"4"},
+		{"id":"8f7e8f334172f74f","type":"text","text":"### Otros ","x":740,"y":370,"width":174,"height":50,"color":"4"},
+		{"id":"6c12e154dd7078a1","type":"text","text":"*  Buscadores no disponibles \n* Buscadores disponibles \n* Buscadores que desean trabajar","x":282,"y":496,"width":250,"height":184,"color":"5"},
+		{"id":"1ebcef85263be07a","type":"text","text":"*  Estudiantes \n* Pensionados\n* Jubilados\n* Rentistas\n* Con incapacidad permanente \n* Actividad en el hogar","x":702,"y":496,"width":250,"height":224,"color":"5"},
+		{"id":"f999135ef456f393","type":"text","text":"## [[Población en Edad de Trabajar (PET)|Población en edad de trabajar]] ($\\geq$  15 años)","x":-51,"y":53,"width":242,"height":147,"color":"6"},
+		{"id":"1bf240dc7633b55f","type":"text","text":"### [[Población Fuera de la Fuerza de Trabajo (PFFT)|Población fuera de la fuerza de trabajo]]","x":494,"y":126,"width":242,"height":147,"color":"4"},
+		{"id":"02d434aca59885f4","type":"text","text":"### [[Fuerza de Trabajo (FT)|Fuerza de trabajo ]]","x":-548,"y":140,"width":240,"height":60,"color":"4"},
+		{"id":"5a5c4302c1f58015","type":"text","text":"### [[Desocupados (DS)|Desocupados ]]","x":-258,"y":320,"width":200,"height":50,"color":"4"},
+		{"id":"fb9bd322b98bca53","type":"text","text":"### Población $<$ 15 años ","x":674,"y":-80,"width":240,"height":70,"color":"1"},
+		{"id":"3bda396d1da01d49","type":"text","text":"### Ilegal","x":1000,"y":-70,"width":174,"height":50,"color":"1"},
+		{"id":"7fed8af17e7a55db","type":"text","text":"# [[Mercado laboral]]   (Actual) ","x":-140,"y":-240,"width":420,"height":100,"color":"6"}
+	],
+	"edges":[
+		{"id":"7befc8d410efd8b3","fromNode":"7fed8af17e7a55db","fromSide":"bottom","toNode":"d776b400324c6175","toSide":"top"},
+		{"id":"f1aeec1630a58f10","fromNode":"d776b400324c6175","fromSide":"bottom","toNode":"f999135ef456f393","toSide":"top"},
+		{"id":"d4547cf0d3c70797","fromNode":"f999135ef456f393","fromSide":"right","toNode":"1bf240dc7633b55f","toSide":"top","color":"6"},
+		{"id":"351462b873f4ee09","fromNode":"f999135ef456f393","fromSide":"left","toNode":"02d434aca59885f4","toSide":"top","color":"6"},
+		{"id":"ed21e4e59836f48d","fromNode":"02d434aca59885f4","fromSide":"bottom","toNode":"5a5c4302c1f58015","toSide":"top","color":"4"},
+		{"id":"cf68cbdf00fabeb1","fromNode":"02d434aca59885f4","fromSide":"bottom","toNode":"2b3c7f785b0f03a2","toSide":"top","color":"4"},
+		{"id":"1365d9aea513a1c4","fromNode":"2b3c7f785b0f03a2","fromSide":"bottom","toNode":"85b1c22dd34cf9a5","toSide":"top","color":"5"},
+		{"id":"615426fb916113a5","fromNode":"2b3c7f785b0f03a2","fromSide":"bottom","toNode":"2b4ff27b686e6ffa","toSide":"top","color":"5"},
+		{"id":"5aab83134b5ac674","fromNode":"2b3c7f785b0f03a2","fromSide":"bottom","toNode":"c1403683f2f0fc05","toSide":"top","color":"5"},
+		{"id":"7eafdeb9aa5b1368","fromNode":"5a5c4302c1f58015","fromSide":"bottom","toNode":"9392350ec60f7166","toSide":"top","color":"5"},
+		{"id":"32b65c4b5f20ee6b","fromNode":"5a5c4302c1f58015","fromSide":"bottom","toNode":"604a0a1a922155b1","toSide":"top","color":"5"},
+		{"id":"8115d3f4e8f72c29","fromNode":"5a5c4302c1f58015","fromSide":"bottom","toNode":"44bb09f11e51cd08","toSide":"top","color":"5"},
+		{"id":"5818a19af96d4f62","fromNode":"d776b400324c6175","fromSide":"right","toNode":"fb9bd322b98bca53","toSide":"left","color":"1"},
+		{"id":"1fdf5b49c6467ebf","fromNode":"1bf240dc7633b55f","fromSide":"bottom","toNode":"bcfc4f0a40ef4c87","toSide":"top","color":"4"},
+		{"id":"d853580aa4744076","fromNode":"bcfc4f0a40ef4c87","fromSide":"bottom","toNode":"6c12e154dd7078a1","toSide":"top","color":"5"},
+		{"id":"a085053e195c7269","fromNode":"8f7e8f334172f74f","fromSide":"bottom","toNode":"1ebcef85263be07a","toSide":"top","color":"5"},
+		{"id":"d6da987672c87c28","fromNode":"fb9bd322b98bca53","fromSide":"right","toNode":"3bda396d1da01d49","toSide":"left","color":"1"},
+		{"id":"e7814355eae29568","fromNode":"1bf240dc7633b55f","fromSide":"bottom","toNode":"8f7e8f334172f74f","toSide":"top","color":"4"}
+	]
+}
